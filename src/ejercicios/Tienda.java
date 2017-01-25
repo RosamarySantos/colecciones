@@ -33,7 +33,7 @@ public class Tienda {
 		Producto productoMasBarato = 
 				listaProductos.get(0);
 		for (Producto referenciaProductoLista : listaProductos) {
-			if (referenciaProductoLista.getPrecioProducto() > 
+			if (referenciaProductoLista.getPrecioProducto() < 
 				productoMasBarato.getPrecioProducto())
 				productoMasBarato = referenciaProductoLista;
 		}
